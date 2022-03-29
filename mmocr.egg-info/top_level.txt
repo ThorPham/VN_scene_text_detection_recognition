@@ -1,3 +1,0 @@
-mmocr
-supper_resolution
-text_classification
