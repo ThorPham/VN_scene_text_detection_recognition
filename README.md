@@ -1,5 +1,5 @@
 # Vietnamses-science-text-recognition
-## requirement
+## Requirement
 - torch                     1.10.0                  
 - torchvision               0.7.0   
 - mmcv-full                 1.3.16
@@ -9,7 +9,7 @@
 - cudatoolkit               10.2.89
 ## TEST MODEL
 - python tools/test.py ${CONFIG_FILE} ${CHECKPOINT_FILE} [ARGS]
-  -- For eval detection --eval : 'hmean-iou', OCR --eval : 'acc'
+- For eval detection --eval : 'hmean-iou', OCR --eval : 'acc'
 ## RUN PREDICT MODEL
 * Inference.py (change file config path)
 ## Train model
