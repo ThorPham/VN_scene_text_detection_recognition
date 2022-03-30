@@ -32,7 +32,7 @@ def main(config,weight,image,output):
     results = model_inference(model, image)
     out_file = os.path.join(output,os.path.basename(image))
 
-    img = model.show_result(image, out_file, out_file=out_file, show=True)
+    img = model.show_result(image, results, out_file=out_file, show=True)
     return img
 if __name__ == "__main__":
     main()
